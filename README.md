@@ -1,24 +1,31 @@
-# Personal Portfolio Website — Merna Ayman
+# Merna Ayman — Personal Portfolio
 
-A personal portfolio web application built with semantic HTML5 and custom CSS3, showcasing a Frontend Developer introduction, services, featured projects (`ATM System` and `N-Queens Solver`), contact information, and social links[cite: 3].
+A responsive personal portfolio website presenting my background, technical toolkit, selected projects, education, and contact links.
 
-## Project Structure & Key Files
-* `index.html`: Single-page portfolio layout containing a fixed navigation header, hero section, `#services` cards, `#projects` showcase cards, `#contact` cards, and a footer with social links[cite: 3].
-* `style.css`: Custom stylesheet defining layout rules, typography (`Poppins` and `Cairo` imported via Google Fonts), hover transitions, card styling, and responsive breakpoints (`max-width: 1024px`, `max-width: 768px`, `max-width: 641px`, and `max-width: 300px`)[cite: 3].
-* `Img/`: Image assets directory (`img6.jpg`, `mirza-babic-eYZpTMc7hno-unsplash.jpg`, `1_Zm2pbDR5CS2w2xeUbTBxQQ.png`, and `img2.jpg`)[cite: 3].
-
-## Sections & Features
-* **Fixed Navigation Bar:** Includes brand link (`Merna`) and smooth-scrolling section links (`Services`, `Projects`, `Contact`)[cite: 3].
-* **Hero Section (`.main`):** Introduces `Merna` as a `Frontend Developer`, includes a `View My Work` call-to-action button linking to `#projects`, displays social media icons (`LinkedIn`, `Facebook`, `GitHub`, `Kaggle`), and uses a side background image (`Img/img6.jpg`)[cite: 3].
-* **Services (`#services`):** Highlights `Script Writing` and `Video Production` in styled cards[cite: 3].
-* **Projects (`#projects`):** Displays project cards for **ATM System** (parallel processing ATM simulator with link to `https://github.com/MernaMero/Parallel-Project`) and **N-Queens Solver** (AI solution for the N-Queens problem)[cite: 3].
-* **Contact & Footer (`#contact`, `.footer`):** Displays phone and email contact cards along with footer copyright and social links[cite: 3].
+## Live Website
+[Visit my portfolio](https://mernaayman-l.github.io/Portfolio-Website/)
 
 ## Built With
-* **HTML5**[cite: 3]
-* **CSS3** (`style.css`, Flexbox, and Media Queries)[cite: 3]
-* **Icons & Fonts:** Font Awesome (`6.7.2` via CDN) and Google Fonts (`Poppins`, `Cairo`, `Ubuntu`)[cite: 3]
+- HTML5
+- CSS3 (responsive layouts, CSS Grid, Flexbox, and custom styling)
+- JavaScript (mobile navigation)
+- Font Awesome
+- Google Fonts
 
-## How to Run
-1. Keep `index.html`, `style.css`, and the `Img/` folder together in the project directory[cite: 3].
-2. Open `index.html` in any web browser (or serve it with a local server such as VS Code **Live Server**)[cite: 3].
+## Website Sections
+- Introduction and professional focus
+- About me and academic highlights
+- Technical skills
+- Selected software and machine-learning projects
+- Education, training, and activities
+- Contact and professional links
+
+## Run Locally
+1. Clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in your browser, or use the Live Server extension.
+
+## Connect
+- GitHub: [MernaAyman-l](https://github.com/MernaAyman-l)
+- LinkedIn: [Merna Ayman](https://www.linkedin.com/in/merna-ayman-l/)
+- Email: merna9540@gmail.com
