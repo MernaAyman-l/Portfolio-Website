@@ -41,4 +41,3 @@ A responsive portfolio website for my background, technical skills, selected pro
 
 - GitHub: [MernaAyman-l](https://github.com/MernaAyman-l)
 - LinkedIn: [Merna Ayman](https://www.linkedin.com/in/merna-ayman-l/)
-- Email: merna9540@gmail.com
