@@ -1,125 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Merna Ayman — Computer Science graduate focused on software engineering, quality assurance, and AI-powered applications.">
+  <title>Merna Ayman | Software Engineer & QA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">Merna</a>
-        <nav class="navigation">
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">MA<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a class="nav-contact" href="#contact">Contact <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </nav>
+  </header>
 
-    </header>
-    <section class="main">
-        <div class="main-content">
-        <h2>Hello, I'm Merna<br><span>Frontend Developer</span></h2>
-        <h3>Bringing ideas to life with cutting-edge web tech</h3>
-        <a href="#projects" class="main-btn">View My Work</a>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/merna-ayman-0ba7a4261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/?locale=ar_AR"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://github.com/MernaMero"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.kaggle.com"><i class="fa-brands fa-kaggle"></i></a>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE GRADUATE · 2026</p>
+          <h1>Hi, I'm <span>Merna Ayman.</span><br> I build, test & improve<br> digital experiences.</h1>
+          <p class="hero-text">A Computer Science graduate from Helwan University interested in software engineering, quality assurance, and AI-powered applications. I enjoy turning ideas into practical solutions and making software more reliable.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="button button-outline" href="https://github.com/MernaAyman-l/CV" target="_blank" rel="noreferrer">View my CV <i class="fa-solid fa-file-arrow-down"></i></a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/MernaAyman-l" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/merna-ayman-l/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:merna9540@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+          </div>
         </div>
+        <div class="hero-visual" aria-label="Software engineering illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="code-window">
+            <div class="window-bar"><span></span><span></span><span></span><small>merna.py</small></div>
+            <div class="code-lines">
+              <p><i>01</i> <b>class</b> <strong>Engineer</strong>:</p>
+              <p><i>02</i> &nbsp; focus = [</p>
+              <p><i>03</i> &nbsp;&nbsp; <em>"Software Quality"</em>,</p>
+              <p><i>04</i> &nbsp;&nbsp; <em>"AI Applications"</em>,</p>
+              <p><i>05</i> &nbsp;&nbsp; <em>"Problem Solving"</em></p>
+              <p><i>06</i> &nbsp; ]</p>
+              <p><i>07</i> &nbsp; <b>keep_learning</b> = <strong>True</strong></p>
+              <p><i>08</i> <span class="cursor">▍</span></p>
+            </div>
+          </div>
+          <div class="floating-tag tag-top"><i class="fa-solid fa-code"></i> Build</div>
+          <div class="floating-tag tag-bottom"><i class="fa-solid fa-shield-halved"></i> Quality</div>
         </div>
-        <div class="main-image"></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
     </section>
-    <section class="cards" id="services">
-        <h2 class="title">Services</h2>
-        <div class="content"> <!-- حاوية واحدة لجميع البطاقات -->
-            <!-- البطاقة الأولى -->
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                </div>
-                <div class="info">
-                    <h3>Script Writing</h3>
-                    <p>Research and write scripts for different topics that can then be directly recorded for video production.</p>
-                </div>
-            </div>
-            
-            <!-- البطاقة الثانية -->
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-video"></i>
-                </div>
-                <div class="info">
-                    <h3>Video Production</h3>
-                    <p>Record and shoot videos taking into consideration proper settings, followed by production & post-production work.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="projects" id="projects">
-        <h2 class="title">Projects</h2>
-        <div class="content"> <!-- تم تصحيح اسم الكلاس من contant إلى content -->
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="Img/mirza-babic-eYZpTMc7hno-unsplash.jpg" alt="ATM Project">
-                </div>
-                <div class="project-info">
-                    <p class="project-category">A high-performance ATM simulator leveraging parallel processing to handle multiple transactions simultaneously. </p>
-                    <strong class="project-title">
-                        <span>ATM System</span>
-                        <a href="https://github.com/MernaMero/Parallel-Project" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-    
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="Img/1_Zm2pbDR5CS2w2xeUbTBxQQ.png" alt="N-Queens Project">
-                </div>
-                <div class="project-info">
-                    <p class="project-category">A smart solution to the classic N-Queens puzzle using AI algorithms. This project efficiently places N queens on a chessboard so that none can attack each other.</p>
-                    <strong class="project-title">
-                        <span>N-Queens Solver</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="cards contact" id="contact">
-        <h2 class="title">Let's work together </h2>
-    <div class="content">
-        <div class="card">
-            <div class="icon">
-                <i class="fa-solid fa-phone"></i>
-            </div>
-            <div class="info">
-                <h3>Phone</h3>
-                <p>+201141757459</p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon">
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-            <div class="info">
-                <h3>Email</h3>
-                <p>merna9540@gmail.com</p>
-            </div>
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2 class="section-title">Curious by nature.<br><span>Focused on building better software.</span></h2>
+        <p class="section-lead">I graduated from the Faculty of Computers and Artificial Intelligence at Helwan University. Through academic projects and practical training, I worked across software development, databases, machine learning, and quality assurance.</p>
+        <p class="body-copy">My graduation project involved working on the QA Agent within an AI-powered software engineering platform. This experience strengthened my interest in software testing, code quality, and building dependable applications. I’m also continuously learning about cybersecurity and modern AI technologies.</p>
+        <div class="about-facts">
+          <div><strong>Very Good</strong><span>Overall grade</span></div>
+          <div><strong>Excellent</strong><span>Graduation project</span></div>
+          <div><strong>2026</strong><span>Graduation year</span></div>
         </div>
-    </div>
+      </div>
     </section>
-    <footer class="footer">
-        <p class="footer-title">copyright @ <span>Merna Ayman</span></p>
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-kaggle"></i></a>
-        </div>
 
-    </footer>
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <p class="eyebrow">02 / TOOLKIT</p>
+        <h2 class="section-title">Technologies I <span>work with.</span></h2>
+        <p class="section-lead">A growing toolkit built through coursework, projects, and hands-on practice.</p>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div><h3>Programming</h3><p>Python · C++ · C · Java · JavaScript</p></article>
+          <article class="skill-card"><div class="skill-icon"><i class="fa-solid fa-window-maximize"></i></div><h3>Web Development</h3><p>HTML · CSS · Bootstrap · React · FastAPI</p></article>
+          <article class="skill-card"><div class="skill-icon"><i class="fa-solid fa-vial-circle-check"></i></div><h3>QA & Software</h3><p>Software Testing · Test Design · Git · GitHub</p></article>
+          <article class="skill-card"><div class="skill-icon"><i class="fa-solid fa-brain"></i></div><h3>AI & Machine Learning</h3><p>Scikit-learn · NumPy · Pandas · OpenCV · LangChain</p></article>
+          <article class="skill-card"><div class="skill-icon"><i class="fa-solid fa-database"></i></div><h3>Databases</h3><p>MySQL · SQLite · PostgreSQL · Supabase</p></article>
+          <article class="skill-card"><div class="skill-icon"><i class="fa-brands fa-docker"></i></div><h3>Tools & Platforms</h3><p>Docker · Linux · VS Code · Jupyter</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2 class="section-title">A few things I've <span>worked on.</span></h2>
+        <p class="section-lead">Selected academic and personal projects. Explore the repositories for implementation details.</p>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-top"><span class="project-number">01</span><span class="project-type">Python · MySQL · Tkinter</span></div>
+            <div class="project-symbol"><i class="fa-solid fa-building-columns"></i></div>
+            <h3>ATM Simulator</h3>
+            <p>A desktop ATM simulation with a graphical interface, MySQL integration, transaction handling, and support for concurrent sessions.</p>
+            <div class="project-tags"><span>GUI</span><span>Database</span><span>Concurrency</span></div>
+            <a class="project-link" href="https://github.com/MernaAyman-l/ATM-Simulator-Python-MySQL" target="_blank" rel="noreferrer">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">02</span><span class="project-type">PHP · MySQL · JavaScript</span></div>
+            <div class="project-symbol"><i class="fa-solid fa-cart-shopping"></i></div>
+            <h3>E-Commerce Web Application</h3>
+            <p>A full-stack online shopping application with product browsing, user accounts, cart management, and checkout functionality.</p>
+            <div class="project-tags"><span>Full Stack</span><span>Web</span><span>SQL</span></div>
+            <a class="project-link" href="https://github.com/MernaAyman-l/E-Commerce-Web-Application" target="_blank" rel="noreferrer">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">03</span><span class="project-type">Python · Machine Learning</span></div>
+            <div class="project-symbol"><i class="fa-solid fa-film"></i></div>
+            <h3>Movie Recommendation System</h3>
+            <p>A recommendation system that applies user-based collaborative filtering and similarity measures to MovieLens data.</p>
+            <div class="project-tags"><span>Recommendation</span><span>Python</span><span>ML</span></div>
+            <a class="project-link" href="https://github.com/MernaAyman-l/movie-recommendation-system" target="_blank" rel="noreferrer">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">04</span><span class="project-type">Python · NLP · Deep Learning</span></div>
+            <div class="project-symbol"><i class="fa-solid fa-comments"></i></div>
+            <h3>Review Sentiment Analysis</h3>
+            <p>A text sentiment analysis project exploring review classification using an LSTM-based approach.</p>
+            <div class="project-tags"><span>NLP</span><span>LSTM</span><span>Classification</span></div>
+            <a class="project-link" href="https://github.com/MernaAyman-l/lstm-reviews-sentiment-analysis" target="_blank" rel="noreferrer">View repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+        </div>
+        <div class="all-projects"><a class="button button-outline" href="https://github.com/MernaAyman-l?tab=repositories" target="_blank" rel="noreferrer">See all GitHub repositories <i class="fa-brands fa-github"></i></a></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="journey">
+      <div class="container">
+        <p class="eyebrow">04 / EDUCATION & EXPERIENCE</p>
+        <h2 class="section-title">My learning <span>journey.</span></h2>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-date">2026</span><div><h3>B.Sc. in Computer Science</h3><p>Faculty of Computers and Artificial Intelligence, Helwan University</p><small>Overall Grade: Very Good · Graduation Project: Excellent</small></div></article>
+          <article class="timeline-item"><span class="timeline-date">Training</span><div><h3>Generative AI Training — NVIDIA & ITI</h3><p>35-hour training covering Generative AI, prompt engineering, and Retrieval-Augmented Generation (RAG).</p></div></article>
+          <article class="timeline-item"><span class="timeline-date">Training</span><div><h3>AI & Machine Learning Intern — Elevo</h3><p>One-month internship focused on artificial intelligence and machine learning.</p></div></article>
+          <article class="timeline-item"><span class="timeline-date">Activities</span><div><h3>Build X / GDGC Al-Azhar</h3><p>Organizer in the Media Buying track.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <p class="eyebrow">05 / GET IN TOUCH</p>
+        <h2 class="section-title">Have a project or opportunity<br><span>in mind?</span></h2>
+        <p class="section-lead">I'm open to junior opportunities, internships, and collaborations in software engineering, QA, and related technology fields.</p>
+        <a class="button button-primary" href="mailto:merna9540@gmail.com">Say hello <i class="fa-regular fa-paper-plane"></i></a>
+        <div class="contact-socials"><a href="mailto:merna9540@gmail.com">merna9540@gmail.com</a><span>·</span><a href="https://www.linkedin.com/in/merna-ayman-l/" target="_blank" rel="noreferrer">LinkedIn</a><span>·</span><a href="https://github.com/MernaAyman-l" target="_blank" rel="noreferrer">GitHub</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">MA<span>.</span></a><p>Designed & built by Merna Ayman · © 2026</p><a href="#home" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a></div></footer>
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuButton.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    }));
+  </script>
 </body>
 </html>
